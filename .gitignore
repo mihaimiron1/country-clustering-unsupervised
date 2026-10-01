@@ -1,0 +1,16 @@
+# Large data files (the small Country-data.csv / data-dictionary.csv are tracked)
+data/*.zip
+data/*.parquet
+
+# Models
+models/
+*.keras
+*.h5
+*.pkl
+*.joblib
+
+# Environments / caches
+.venv/
+venv/
+__pycache__/
+.ipynb_checkpoints/
